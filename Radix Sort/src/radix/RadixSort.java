@@ -11,7 +11,7 @@ public class RadixSort {
 	}
 	
 	//Purpose: To calculate the length of the longest number in a vector of
-    //         natural numbers.
+    	//         natural numbers.
 	public static int getLargest(Integer[] n, int greatest, int index) {
 		if (index == -1) return greatest;
 		else if (greatest < getLength(n[index])) {
@@ -75,10 +75,6 @@ public class RadixSort {
 	}
 	//Termination Argument: Every iteration i is increased by 1 and eventually i will be greater than or equal to largest
 	//                      Therefore the loop will terminate.
-	
-	
-	
-	//We had a hard time with the Inveriants, we know they aren't completely right.
 	
 	
 	public static void main(String[] args) {
